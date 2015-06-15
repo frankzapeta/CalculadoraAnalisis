@@ -5,10 +5,27 @@
  */
 package CalculadoraCientific;
 
+import Operacion.Operacion;
+
 /**
  *
  * @author adiseño.2015
  */
-public class OperCoseno {
+public class OperCoseno extends CalculadoraCientifica implements Operacion{
+
+    public Float respuesta;
+
+    public Float getRespuesta() {
+        return respuesta;
+    }
+
+    public void setRespuesta(Float respuesta) {
+        this.respuesta = respuesta;
+    }
+    
+    @Override
+    public void operacions() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
