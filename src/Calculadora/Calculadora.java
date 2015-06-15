@@ -13,5 +13,32 @@ public class Calculadora {
     private int operando;
     private char operador;
     private Calculadora calcu;
+
+
+    public int getOperando() {
+        return operando;
+    }
+
+    public char getOperador() {
+        return operador;
+    }
+
+    public Calculadora getCalcu() {
+        return calcu;
+    }
+
+    public void setOperando(int operando) {
+        this.operando = operando;
+    }
+
+    public void setOperador(char operador) {
+        this.operador = operador;
+    }
+
+    public void setCalcu(Calculadora calcu) {
+        this.calcu = calcu;
+    }
+   
+    
     
 }
