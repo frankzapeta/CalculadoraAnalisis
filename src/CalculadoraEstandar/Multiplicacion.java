@@ -5,10 +5,17 @@
  */
 package CalculadoraEstandar;
 
+import Operacion.Operacion;
+
 /**
  *
  * @author adiseño.2015
  */
-public class Multiplicacion {
+public class Multiplicacion implements Operacion{
+
+    @Override
+    public void operacions() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
